@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
-import Header from './components/Header';
+// import Header from './components/Header';
 import Footer from './components/Footer';
 import List from './pages/List';
 import Add from './components/Add';
@@ -35,15 +35,15 @@ function App() {
   //   setCount(count - 1, console.log(count));
   // };
 
-  const add = async(item) => {
-    // item.id = items.length + 1;
-    const result = await fetch("http://localhost:5000/items/", {
-      method: "POST",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify(item),
-    });
-    setItems([...items, item]);
-  };
+  // const add = async(item) => {
+  //   // item.id = items.length + 1;
+  //   const result = await fetch("http://localhost:5000/items/", {
+  //     method: "POST",
+  //     headers: {"Content-Type": "application/json"},
+  //     body: JSON.stringify(item),
+  //   });
+  //   setItems([...items, item]);
+  // };
 
   const del = async (id) => {
     await fetch("http://localhost:5000/items/" + id, {

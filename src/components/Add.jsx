@@ -1,5 +1,5 @@
-import React from 'react'
-import Boton from './Boton'
+// import React from 'react'
+// import Boton from './Boton'
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -8,11 +8,11 @@ const Add = ({add}) => {
   const [name, setName] = useState("");
   const [price, setPrice] = useState(0);
 
-  const addItem = () => {
-    add({name, price});
-    setName("");
-    setPrice(0);
-  };
+  // const addItem = () => {
+  //   add({name, price});
+  //   setName("");
+  //   setPrice(0);
+  // };
 
   const onsubmit = (e) => {
     e.preventDefault();
