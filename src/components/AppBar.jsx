@@ -15,12 +15,12 @@ import AdbIcon from '@mui/icons-material/Adb';
 import { useNavigate } from 'react-router-dom';
 
 const pages = ['Inventario', 'Agregar Producto', 'Logout', 'Nombre'];
-const pagesToLink = {
-    'Inventario': '/items',
-    'Agregar Producto': '/add',
-    'Logout': '/',
-    'Nombre': '/nombre'
-}
+// const pagesToLink = {
+//     'Inventario': '/items',
+//     'Agregar Producto': '/add',
+//     'Logout': '/',
+//     'Nombre': '/nombre'
+// }
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
  
 function ResponsiveAppBar({ logout }) {
