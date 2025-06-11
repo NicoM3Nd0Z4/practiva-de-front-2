@@ -17,7 +17,7 @@ function App() {
   const [isLogin, setIsLogin] = useState(false);
   const [show, setShow] = useState(false); // Missing state for show/hide
 
-  const API_URL = "practica-back-partedos-production.up.railway.app";
+  const API_URL = "https://practica-back-partedos-production.up.railway.app";
 
   useEffect(() => {
     if (isLogin) {
